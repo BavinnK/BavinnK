@@ -3,8 +3,9 @@
 <h3 align="center">Computer Engineering Student | Embedded & PCB Enthusiast | Dreaming Big ⚡</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00F794&center=true&vCenter=true&width=435&lines=Embedded+Systems+Lover+❤️;PCB+Designer+🛠️;Future+IoT+Master+🌐;BAVREX+is+the+Way+🚀" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F794&center=true&vCenter=true&width=435&lines=Embedded+Systems+Lover+❤️;PCB+Designer+🛠️;Future+IoT+Master+🌐;BAVREX+is+the+Way+🚀" alt="Typing SVG" />
 </p>
+
 
 ---
 
