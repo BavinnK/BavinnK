@@ -10,7 +10,7 @@
 ---
 
 ## 🌱 Currently Learning
-- ✅ [x] Embedded Systems Crash Course by André LaMothe
+- ✅ [x] Embedded Systems Course
 - ✅ [x] PCB Design Beginner Course
 - 🔁 Arduino, Flip-Flops, Logic Gates, Servo Control
 - 📤 Uploading Projects to GitHub consistently
