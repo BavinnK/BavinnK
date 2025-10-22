@@ -1,12 +1,5 @@
 <!-- BAVIN'S README - FORGED IN BARE METAL -->
-<p align="center">
-  <a href="https://github.com/BavinnK">
-    <img src="https://github-readme-stats.vercel.app/api?username=BavinnK&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="Bavin's GitHub stats" />
-  </a>
-  <a href="https://github.com/BavinnK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BavinnK&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
-</p>
+
 
 > I'm the engineer who used to work 11.5-hour days in a car service center and then came home to wage a second war against datasheets and hardware registers. Now, I'm a full-time student with a single-minded focus: to become a world-class embedded systems engineer. I am the man who is tired but never stops.
 
