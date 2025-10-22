@@ -1,13 +1,10 @@
 <!-- BAVIN'S README - FORGED IN BARE METAL -->
-<h1 align="center">Hi 👋, I'm Bavin (BAVREX)</h1>
-<h3 align="center">A Computer Engineering Student on a Mission to Master the Metal.</h3>
-
 <p align="center">
-  <a href="https://github.com/BAVREX">
-    <img src="https://github-readme-stats.vercel.app/api?username=BAVREX&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="Bavin's GitHub stats" />
+  <a href="https://github.com/BavinnK">
+    <img src="https://github-readme-stats.vercel.app/api?username=BavinnK&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="Bavin's GitHub stats" />
   </a>
-  <a href="https://github.com/BAVREX">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BAVREX&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <a href="https://github.com/BavinnK">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BavinnK&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
   </a>
 </p>
 
