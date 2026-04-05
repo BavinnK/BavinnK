@@ -1,8 +1,4 @@
-<!-- BAVIN'S README - BARE METAL ENGINEERING -->
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F794&center=true&vCenter=true&width=600&lines=Bare+Metal+%7C+Embedded+Systems+Engineer;C+%2F+Assembly+%7C+STM32+%7C+AVR;Hardware+%26+Software+Interface+Focus" />
-</p>
+# BAVIN — Embedded Systems Engineer
 
 ---
 
@@ -10,24 +6,21 @@
 
 Computer Engineering student focused on **low-level embedded systems development**.
 
-I work close to the hardware — writing drivers, working with registers, and building systems from the ground up without relying on high-level abstractions.
+I work close to the hardware, building systems from the ground up using C and assembly, interacting directly with microcontroller registers, interrupts, and peripherals.
 
-My goal is to develop deep competence in:
-- Microcontroller architecture
-- Memory systems
-- Peripheral interfacing
-- Real-time systems
-- Hardware/software co-design
+My focus is not frameworks or abstractions — it is understanding how systems actually behave at the hardware level.
 
 ---
 
-## ⚙️ Core Engineering Focus
+## ⚙️ Engineering Focus
 
-- Bare-metal programming (no abstraction layers)
+- Bare-metal firmware development
 - Register-level peripheral control
-- Interrupt-driven and DMA-based systems
-- Deterministic, real-time behavior
-- Debugging using hardware tools (oscilloscope, logic analyzer, debugger)
+- Interrupt-driven system design
+- DMA-based data handling
+- Real-time system behavior
+- Hardware/software interaction
+- Debugging using hardware tools (debugger, oscilloscope, logic analyzer)
 
 ---
 
@@ -36,41 +29,85 @@ My goal is to develop deep competence in:
 ### Languages
 - C (primary)
 - C++
-- Assembly (ARM / AVR)
+- Assembly (ARM / AVR / PIC)
 
 ### Architectures
 - AVR (ATmega328P)
 - ARM Cortex-M (STM32F4 series)
+- PIC16F887
 
 ### Protocols & Peripherals
 - UART
 - SPI
 - I2C
 - PWM
+- ADC
 - DMA
-- NVIC (interrupt system)
+- NVIC / Interrupt systems
 
 ### Tools
 - Git / GitHub
 - STM32CubeIDE / GCC toolchain
-- Debugging via SWD / JTAG
-- Oscilloscope / Logic Analyzer
+- MPLAB X IDE (PIC development)
+- Debugging via SWD / JTAG / ICD
+- Oscilloscope & Logic Analyzer
 
 ---
 
 ## 🧩 Assembly Knowledge
 
-I use assembly to understand and control what happens beneath C code:
+- CPU registers and instruction execution
+- Stack operations and function call behavior
+- Interrupt entry and exit sequences
+- Memory-mapped I/O access
+- Bit-level manipulation and control
+- Understanding compiler-generated behavior
 
-- Register-level operations (general-purpose & special registers)
-- Stack operations and function call conventions (calling ABI)
-- Interrupt entry/exit sequences
-- Memory-mapped I/O access patterns
-- Bit manipulation at the instruction level
+---
 
-Example (ARM Cortex-M style concept):
-```asm
-LDR R0, =0x40020014   ; Load GPIO register address
-LDR R1, [R0]          ; Read register
-ORR R1, R1, #1<<5     ; Set bit
-STR R1, [R0]          ; Write back
+## 🔌 PIC16F887 Experience
+
+- Register-level GPIO control (TRIS, PORT, LAT)
+- Timer modules (Timer0, Timer1)
+- Interrupt handling (INTCON and peripheral interrupts)
+- ADC configuration and usage
+- Peripheral interfacing and timing control
+- Understanding of 8-bit microcontroller architecture
+
+---
+
+## 🧠 System-Level Understanding
+
+- Memory organization (Flash, SRAM, stack)
+- Interrupt vector tables and handling
+- Clock configuration and system timing
+- Peripheral register mapping
+- Boot process of microcontrollers
+- Deterministic execution in embedded systems
+
+---
+
+## 🗺️ Roadmap
+
+### Phase 1 — AVR Bare Metal
+- GPIO, Timers, Interrupts, ADC, UART
+- Direct register programming
+- Completed multiple hardware-based projects
+
+### Phase 2 — ARM Cortex-M (STM32)
+- NVIC, DMA, peripherals at register level
+- Driver development without HAL dependency
+- FreeRTOS integration
+- Real-time system design
+
+### Phase 3 — Systems Expansion
+- Deeper RTOS concepts
+- Embedded Linux fundamentals
+- PCB design and hardware integration
+- Advanced communication protocols and system design
+
+---
+
+## 🎯 Goal
+
+To become a strong embedded systems engineer capable of designing and implementing reliable, efficient, and real-time hardware-software systems from scratch.
